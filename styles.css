@@ -28,7 +28,21 @@ body {
 
 .header {
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.welcome {
+
+}
+
 
 .content {
   background-color: lightgrey;
