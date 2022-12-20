@@ -50,8 +50,7 @@ body {
 }
 
 .piper {
-  margin-left:10px;
-  margin-right: 10px;
+  margin: 0px 20px;
   border-radius: 10px;
 }
 
@@ -60,9 +59,20 @@ h5 {
 }
 
 .welcome {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
+.left {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: #0ea5e9;
+  color: white;
+  border-radius: 10px;
+}
 
 .content {
   background-color: lightgrey;
