@@ -36,7 +36,27 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.form-input {
+  height: 20px;
+  width: 450px;
+  border-radius: 5px;
+  background-color: lightgrey;
+  border: lightgrey;
+  margin-left: 15px;
+  margin-right: 150px;
+}
+
+.piper {
+  margin-left:10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+h5 {
+  font-size: 25px;
 }
 
 .welcome {
