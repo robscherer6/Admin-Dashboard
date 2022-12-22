@@ -94,7 +94,20 @@ button {
 
 .content {
   background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 75% 25%;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.card {
+  border: 1px solid grey;
+  margin: 10px 10px;
+}
+
 
 .logo {
   display: flex;
