@@ -103,8 +103,23 @@ button {
   grid-template-columns: 50% 50%;
 }
 
+h6 {
+  color: black;
+  font-size: 15px;;
+}
+
 .card {
-  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 80%;
+  margin: 10px;
+  margin-left: 15px;
+  background-color: white;
+  border-left: 4px solid orange;
+  border-radius: 10px;
 }
 
 
