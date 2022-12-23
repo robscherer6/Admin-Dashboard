@@ -98,13 +98,12 @@ button {
   grid-template-columns: 75% 25%;
 }
 
-.cards {
+.cards-left {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
 .card {
-  border: 1px solid grey;
   margin: 10px 10px;
 }
 
