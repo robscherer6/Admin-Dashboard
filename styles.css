@@ -104,16 +104,16 @@ button {
 }
 
 h6 {
-  color: black;
-  font-size: 15px;;
+  font-size: 18px;;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 150px;
+  align-items: flex-start;
+  padding-left: 10px;
+  height: 200px;
   width: 80%;
   margin: 10px;
   margin-left: 15px;
@@ -122,6 +122,19 @@ h6 {
   border-radius: 10px;
 }
 
+.card p {
+  font-size: 14px;
+  color: grey;
+  margin: 10px 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+}
 
 .logo {
   display: flex;
