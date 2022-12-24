@@ -174,8 +174,12 @@ img {
   margin-top: 75px;
 }
 
-.ann-text h6 {
-  font-size: 14px;
+.ann-trend h4 {
+  padding: 5px;
+}
+
+.ann-text h6, .trend-text h6 {
+  font-size: 13px;
   margin-top: 5px;
 }
 
@@ -191,7 +195,7 @@ img {
 .ann-text p{
   padding: 10px 15px;
   color: grey;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .divider {
@@ -205,11 +209,25 @@ img {
   height: 80%;
   width: 90%;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .trend-img-text {
   display: flex;
-  flex-direction: column;
-  font-size: 12px;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 20px;
+  padding: 5px 0;
 }
 
+.trend-text p {
+  padding: 5px 5px;
+}
+
+.trend-text {
+  margin-left: 20px;
+  font-size: 15px;
+}
