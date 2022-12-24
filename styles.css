@@ -174,20 +174,42 @@ img {
   margin-top: 75px;
 }
 
+.ann-text h6 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
 .ann-trend {
   display: grid;
   grid-template-rows: 50% 50%;
 }
 
+.ann-text {
+  padding: 15px 10px;
+}
+
+.ann-text p{
+  padding: 10px 15px;
+  color: grey;
+  font-size: 12px;
+}
+
+.divider {
+  border: 0.5px solid #737373;
+  width: 80%;
+  margin-left: 20px;
+}
+
 .ann-card, .trend-card {
   background-color: white;
   height: 80%;
-  width: 80%;
+  width: 90%;
   border-radius: 5px;
 }
 
-.ann-card {
+.trend-img-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
 }
 
-.trend-card {
-}
