@@ -136,6 +136,12 @@ h6 {
   width: 90%;
 }
 
+h4 {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -166,4 +172,22 @@ img {
 
 .bottom-icons {
   margin-top: 75px;
+}
+
+.ann-trend {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.ann-card, .trend-card {
+  background-color: white;
+  height: 80%;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.ann-card {
+}
+
+.trend-card {
 }
